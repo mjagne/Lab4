@@ -7,12 +7,12 @@ variable "region" {
 
 variable "ssh_key_public" {
   type    = string
-  default = "C:\\Users\\wessa\\.ssh\\id_rsa.pub"
+  default = "C:\\Users\\maawa\\.ssh\\id_rsa.pub"
 }
 
 variable "ssh_key_private" {
   type    = string
-  default = "C:\\Users\\wessa\\.ssh\\id_rsa"
+  default = "C:\\Users\\maawa\\.ssh\\id_rsa"
 }
 
 variable "subnet_ips" {}
